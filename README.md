@@ -39,7 +39,7 @@ It connects directly to the Soroban smart contract deployed on testnet.
 
 ## Deployed Frontend
 
-https://vercel.com/lukas-enocks-projects/no-loss-auction-frontend
+https://no-loss-auction-frontend-done-u2u1.vercel.app/
 
 ---
 
