@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* MAIN CONTAINER */
+.container {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  width: 360px; /* increased width for better fit */
+  padding: 10px;
+}
+
+/* TITLE */
+h1 {
+  position: fixed;
+  top: 15px;
+  font-size: 26px;
+  color: #38bdf8;
+}
+
+/* CARD */
+.card {
+  background: #1e293b;
+  padding: 16px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.15);
+}
+
+/* BUTTONS */
+button {
+  background: #1e293b;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+  padding: 14px;
+  font-size: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  width: 100%; /* ensures perfect grid fit */
+  box-sizing: border-box; /* prevents overflow */
+}
+
+button:hover {
+  background: #38bdf8;
+  color: #0f172a;
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* TEXT */
+p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #94a3b8;
+}

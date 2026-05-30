@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>No-Loss Auction DApp</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@stellar/stellar-sdk@13.3.0/dist/stellar-sdk.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@stellar/stellar-sdk@13.3.0/dist/stellar-sdk.min.js"></script>
+  </head>
+
+  <body>
+    <h1>No-Loss Auction</h1>
+
+    <div class="container">
+      <div class="card">
+        <p id="walletStatus">Wallet: Not Connected</p>
+        <p id="auctionStatus">Auction Status: Ready</p>
+      </div>
+
+      <button onclick="connectWallet()">Connect Wallet</button>
+
+      <button onclick="createAuction()">Create Auction</button>
+      <button onclick="placeBid()">Place Bid</button>
+      <button onclick="finalizeAuction()">Finalize Auction</button>
+      <button onclick="claimRefund()">Claim Refund</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
