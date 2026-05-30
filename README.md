@@ -39,10 +39,7 @@ It connects directly to the Soroban smart contract deployed on testnet.
 
 ## Deployed Frontend
 
-[PASTE YOUR NETLIFY LINK HERE]
-
-Example:
-https://your-project-name.netlify.app
+https://vercel.com/lukas-enocks-projects/no-loss-auction-frontend
 
 ---
 
